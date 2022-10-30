@@ -1,5 +1,7 @@
 # vsftpd-2.3.4-vulnerable
 
+Modified for my own purposes for [SESH](https://shefesh.com) to spin up just one docker container.
+
 The `Dockerfile` runs the vulnerable vsftpd 2.3.4 server and `docker-compose.yml` orchestrates running multiple instances of that server for 12 teams (as an example) that can be used in cybersecurity classes for students to practice pentesting. 
 
 Students' goal is to read about this backdoor, exploit it, and see what is inside of the `x_secret_is_here.txt` file when they successfully exploit it. Here is how they do it:
